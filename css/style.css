@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("/images/background.png") no-repeat center center fixed;
+  background-size: cover;
+  background-color: #121212;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+.login-contenedor,
+.contenedor {
+  background-color: #1e1e1e;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #00ffcc;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+input {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+button {
+  background-color: #00ffcc;
+  color: black;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #00ccaa;
+}
+
+#mensaje-error {
+  color: red;
+  text-align: center;
+}
+
+/* NAV BAR */
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav button {
+  display: inline-block;
+  background-color: #2c2c2c;
+  color: #00ffcc;
+  border: 1px solid #00ffcc;
+  margin: 0 10px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav button:hover {
+  background-color: #00ccaa;
+  color: black;
+}
+
+
+
+
+
+
+
+
+

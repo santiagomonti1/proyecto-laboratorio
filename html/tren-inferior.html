@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rutina Tren Inferior</title>
+<link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+<nav>
+    <button onclick="location.href='seleccion.html'">Registrar otro alumno</button>
+    <button onclick="location.href='nosotros.html'">Nosotros</button>
+</nav>
+
+<div class="contenedor">
+    <h2>Registro de Ejercicios</h2>
+
+    <div id="info-inferior">
+    <h3>Tren Inferior</h3>
+    <p>Músculos: cuádriceps, glúteos, gemelos</p>
+    <p>Ejemplo: sentadillas, peso muerto</p>
+    </div>
+
+    <h3>Datos del ejercicio</h3>
+    <input type="text" id="nombre" placeholder="Nombre del Alumno" />
+    <input type="text" id="ejercicio" placeholder="Ejercicio" />
+    <input type="number" id="series" placeholder="Series" />
+    <input type="number" id="repeticiones" placeholder="Repeticiones" />
+    <button onclick="mostrarResumen()">Mostrar resumen</button>
+
+    <p id="resumen"></p>
+</div>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
+
